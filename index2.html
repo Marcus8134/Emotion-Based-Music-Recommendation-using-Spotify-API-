@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Play your favourite Music</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="spotify" style="cursor:pointer"><a href="https://www.spotify.com/in-en/" style="color:white;text-decoration:none">Spotify</a></li>
+            <li style="cursor: pointer"> <a href="https://www.spotify.com/in-en/about-us/contact/" style="color:white;text-decoration:none">About</a> </li>
+            <li style="cursor: pointer"> <a href="https://www.spotify.com/in-en/download/windows/" style="color:white;text-decoration:none">Download</a> </li>
+            <li style="cursor: pointer"> <a href="https://www.spotify.com/in-en/premium/" style="color:white;text-decoration:none">Premium</a> </li>
+            <!--<li> | </li>
+            <li style="cursor: pointer"> <a href="https://www.spotify.com/in-en/signup" style="color:white;text-decoration:none">SignUp</a> </li>
+            <li style="cursor: pointer"> <a href="https://accounts.spotify.com/en/login/?continue=https%3A//open.spotify.com/__noul__%3Fl2l%3D1%26nd%3D1&_locale=en-IN" style="color:white;text-decoration:none">LogIn</a> </li>-->
+            
+        </ul>
+    </nav> 
+    
+    <!--<div class="cimg">
+        <img src="1.jpg">
+     <h1>captured image</h1>
+
+    </div>-->
+
+    <div class="container">
+        <div class="songlist">
+            <h1>SPOTIFY - Music Based on Emotion</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:20</span><i id="t" class="far  songitemplay fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <!--<div class="songbanner"></div>-->
+    </div>
+    <div><button class="rf">New Songs</button></div>
+    <script src="https://kit.fontawesome.com/2c40d3d4d9.js" crossorigin="anonymous"></script>
+    <!--<audio id="audioElement" controls style="display:none;"></audio>-->
+
+    <!--<div class="bottom">-->
+        <!--<div id = "player">
+           <input type="range" name="range" id="myprogressbar" min="0" max="100" value=0> 
+           <div class="icons">
+            <i class="fas fa-2x  fa-backward-fast" id="previous"></i>
+            <i class="far fa-2x  fa-circle-play" id="masterplay"></i>
+            <i class="fas fa-2x  fa-forward-fast" id="next"></i>
+           </div>
+           <div class="songinfo">
+            <img src="playing.gif" width="50px" alt="musicPlayer" id="gif"> <span id="mastersongname">Boost your Mood</span> 
+           </div>-->
+    <!-- </div>
+    <div class="player-controls">
+        <button id="masterplay" class="fa fa-circle-play" aria-hidden="false"></button>
+        <button id="next" class="fa fa-forward"></button>
+        <button id="previous" class="fa fa-backward"></button>
+        <input type="range" id="myprogressbar" value="0" max="100" />
+        <span id="mastersongname">Song Name</span>
+        <img id="gif" style="opacity: 0;" src="playing.gif" alt="Playing GIF" />
+    </div> -->
+
+    
+   
+    
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <!--<script src="vsdk5.js"></script>-->
+    <script src="vscript8.js"></script>
+
+</body>
+</html>  
